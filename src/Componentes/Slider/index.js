@@ -52,8 +52,10 @@ const BtnNext = tw.div`
     cursor-pointer
 `
 const CursorPointer =tw.div`
-    text-2xl 
-    cursor-pointer
+    flex 
+    top-4 
+    justify-center 
+    py-2
 `
 
 const Slider = () =>{
@@ -102,16 +104,16 @@ const Slider = () =>{
                 <BsChevronCompactRight onClick={ nextSlider}/>
             </BtnNext>
 
-            <div  className='flex top-4 justify-center py-2'>
+            <CursorPointer>
              {
                 sliders.map((sliderItems, slideIndex)=>(
 
-                   <CursorPointer key={slideIndex} onClick={() => moveToNextSlide (slideIndex)}>
+                   <div key={slideIndex} onClick={() => moveToNextSlide (slideIndex)} className=" text-2xl cursor-pointer">
                         <RxDotFilled/>
-                   </CursorPointer>
+                   </div>
                 ))
              }
-            </div>
+            </CursorPointer>
 
         </SliderContainer>
     )
