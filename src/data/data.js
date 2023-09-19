@@ -1,4 +1,4 @@
-export const topPicks = [
+export const favoritos = [
   {
     id: 1,
     title: 'shawarma',
@@ -68,109 +68,109 @@ export const topPicks = [
 ];
 
 
-export const mealData = [
+export const cardapio = [
   {
     id: 5,
     name: 'cheeseless pizza',
-    category: 'pizza',
+    categoria: 'pizza',
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672324456/NetflixApp/cheeseless_pizza_bkuecz.jpg',
-    price: '$200',
+    preco: 'R$200',
   },
   {
     id: 6,
     name: 'Supreme Pizza',
-    category: 'pizza',
+    categoria: 'pizza',
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672324455/NetflixApp/Supreme_Pizza_jtvkj8.jpg',
-    price: '$300',
+    preco: 'R$300',
   },
   {
     id: 7,
     name: 'pepperoni pizza',
-    category: 'pizza',
+    categoria: 'pizza',
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672324456/NetflixApp/pepperoni_pizza_axwdat.jpg',
-    price: '$100',
+    preco: 'R$100',
   },
   {
     id: 8,
     name: 'Cheese Pizza',
-    category: 'pizza',
+    categoria: 'pizza',
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672324456/NetflixApp/chinese_pizza_kgnbo1.jpg',
-    price: '$140',
+    preco: 'R$140',
   },
   {
     id: 9,
     name: 'African salad',
-    category: 'salad',
+    categoria: 'salad',
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323870/NetflixApp/African_Salad_s7vgxn.png',
-    price: '$140',
+    preco: 'R$140',
   },
   {
     id: 10,
     name: 'Kale Salad',
-    category: 'salad',
+    categoria: 'salad',
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323860/NetflixApp/kale_salad_ogune3.jpg',
-    price: '$300',
+    preco: 'R$300',
   },
   {
     id: 11,
     name: 'Ceasar Salad',
-    category: 'salad',
+    categoria: 'salad',
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323859/NetflixApp/caesar-salad-with-tuna-30216-1_noflfd.jpg',
-    price: '$300',
+    preco: 'R$300',
   },
   {
     id: 12,
     name: 'Loaded Salad',
-    category: 'salad',
+    categoria: 'salad',
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323860/NetflixApp/loaded_salad_qq5jup.jpg',
-    price: '$200',
+    preco: 'R$200',
   },
   {
     id: 13,
     name: 'chiken_shawarma',
-    category: 'chicken',
+    categoria: 'chicken',
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672323737/NetflixApp/chiken_shawarma_c0ysna.jpg',
-    price: '$100',
+    preco: 'R$100',
   },
   {
     id: 14,
     name: 'Wings',
-    category: 'chicken',
+    categoria: 'chicken',
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672322922/NetflixApp/chicken-wings_lv3zc9.jpg',
-    price: '$100',
+    preco: 'R$100',
   },
   {
     id: 15,
     name: 'Roasted Chicken',
-    category: 'chicken',
+    categoria: 'chicken',
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672322922/NetflixApp/roast-chicken_nrc6r8.jpg',
-    price: '$300',
+    preco: 'R$300',
   },
   {
     id: 16,
     name: 'Chicken Tenders',
-    category: 'chicken',
+    categoria: 'chicken',
     image:
       'https://res.cloudinary.com/ehizeex-shop/image/upload/v1672322923/NetflixApp/chicken_tenders_quel6y.jpg',
-    price: '$100',
+    preco: 'R$100',
   },
 
 ];
 
 
 
-  export const categories = [
+  export const categorias = [
     {
       id: 1,
       name: 'Burger',
