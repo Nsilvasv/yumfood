@@ -1,5 +1,5 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import { topPicks } from "../../data/data";
+import { favoritos } from "../../data/data";
 import '@splidejs/react-splide/css';
 import tw from 'tailwind-styled-components'
 
@@ -51,7 +51,7 @@ const Favoritos = () => {
 
             <FavContainer>
                 <Splide options={{ perPage: 3, gap: "1.5rem", grag: "free", arrows: false }}>
-                    {topPicks.map((item) => {
+                    {favoritos.map((item) => {
                         return (
                             <SplideSlide key={item.id}>
                                 <div className="rounded-3xl relative">
