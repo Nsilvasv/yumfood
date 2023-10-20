@@ -1,17 +1,18 @@
 import AppEntrega from "./Componentes/AppEntrega";
 import Cardapio from "./Componentes/Cardapio";
-import Favoritos from "./Componentes/Favoritos";
+import Footer from "./Componentes/Footer";
 import Header from "./Componentes/Header";
+import Navbar from "./Componentes/Navbar";
 import Slider from "./Componentes/Slider";
 
 function App() {
   return (
     <div>
-      <Header/>
+      <Navbar/>
       <Slider/>
       <AppEntrega/>
-      <Favoritos/>
       <Cardapio/>
+      <Footer/>
     </div>
   );
 }
