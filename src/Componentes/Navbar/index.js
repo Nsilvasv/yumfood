@@ -1,6 +1,6 @@
 import { Disclosure, Menu } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { BsPersonCircle, BsFillCartFill } from "react-icons/bs";
+import { BsFillCartFill } from "react-icons/bs";
 
 const navigation = [
   { name: 'Home', href: '#', current: true },
@@ -14,13 +14,13 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" >
+    <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="mx-auto w-full px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto w-full px-2 sm:px-6 lg:px-8 bg-gray-200">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                {/* Mobile menu button*/}
+                {/* Mobile menu button fixed top-0 z-10  */}
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-black hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
@@ -34,11 +34,10 @@ export default function Navbar() {
               </div>
               {/* esconde logo em resolução menor*/}
               <div className="flex flex-shrink-0 items-center">
-       
                   <h1 className='mx-1 text-4xl font-black font-serif text-orange-600 hidden  sm:block'>YumFood</h1>
               </div>
 
-              <div className="flex flex-1 items-end justify-end sm:items-stretch">          
+              <div className=" flex flex-1 items-end justify-end sm:items-stretch">          
                 <div className="hidden sm:ml-6 sm:block ">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (

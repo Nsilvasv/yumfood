@@ -5,8 +5,8 @@ import tw from 'tailwind-styled-components'
 
 const ContainerCardapio = tw.div`
     m-auto 
-    px-4 
-    my-5
+    p-4 
+    mt-10
 `
 const Cabecalho = tw.h1`
     text-orange-500 
@@ -76,7 +76,7 @@ const Cardapio = () => {
         <ContainerCardapio>
             <Cabecalho> Cardapio </Cabecalho>
 
-            <div className="flex flex-col lg:flex-row justify-center">
+            <div className="flex flex-col lg:flex-row justify-center mb-9">
                 <div className="flex justify-center md:justify-center">
 
                     <Button onClick={() => setComida(cardapio)} > 
